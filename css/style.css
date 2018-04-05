@@ -1,0 +1,50 @@
+body {
+  background-color: #222;
+  text-align:center;
+}
+
+.navbar-default {
+    background-color: transparent;
+    padding: px 0;
+    border: 0;
+}
+
+.jumbotron {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url("C:/Users/Karla/Documents/CFG/GitHub/grime-website2/images/music-producer-main-pic.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+
+#artists-section {
+  text-align: center;
+  background-color: #222;
+  display: block;
+  font-family: 'rock salt';
+  font-color:white;
+}
+
+#title {
+  font-family: 'Rock Salt';
+}
+#location {
+  font-family: 'Rock Salt';
+  font-size: 20px;
+}
+#Tagline {
+  font-family: 'Rock Salt';
+  Font-size: 25px;
+}
+
+#partners-section {
+  text-align: center;
+  display: block;
+  background-color: #222;
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+
+}
