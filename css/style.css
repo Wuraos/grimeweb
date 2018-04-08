@@ -48,3 +48,48 @@ body {
   margin-bottom: 0;
 
 }
+
+#artists-section {
+  text-align: center;
+  display: block;
+  background-color: #222;
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+
+}
+
+#about-us-section {
+  text-align: center;
+  display: block;
+  background-color: #222;
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+
+}
+
+#contact-section {
+  text-align: center;
+  display: block;
+  background-color: #222;
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+
+}
+
+
+
+
+
+
+.about-section {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image:url("C:/Users/Karla/Documents/CFG/grime-website2/images/hip-hop-music-studio-wallpaper.jpg");
+
+  background-size: cover;
+  background-attachment: fixed;
+}
