@@ -1,7 +1,8 @@
 body {
-  background-color: #222;
+ background-color: #222;
   text-align:center;
 }
+
 
 .navbar-default {
     background-color: transparent;
@@ -13,8 +14,8 @@ body {
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
-  background-image: url("C:/Users/Karla/Documents/CFG/grime-website2/images/music-producer-main-pic.jpg");
-  background-size: cover;
+  background-image: url("background-cover.jpg");
+  background-size:  300px 100px;
   background-attachment: fixed;
   }
 
@@ -96,8 +97,7 @@ img {
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
-  background-image:url("C:/Users/Karla/Documents/CFG/grime-website2/images/hip-hop-music-studio-wallpaper.jpg");
-
+  background-image:url("images/background-cover.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
