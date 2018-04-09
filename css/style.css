@@ -28,15 +28,16 @@ body {
 }
 
 #title {
-  font-family: 'Rock Salt';
+  font-family:'Rock Salt';
 }
 #location {
-  font-family: 'Rock Salt';
+  font-family:'Rock Salt';
   font-size: 20px;
 }
-#Tagline {
-  font-family: 'Rock Salt';
-  Font-size: 25px;
+#tagline {
+  font-family:'Rock Salt';
+
+
 }
 
 #partners-section {
@@ -56,7 +57,14 @@ body {
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
+  font-family: 'rock salt';
 
+}
+
+img {
+  border-radius: 50%;
+  width:250px;
+  height:250px;
 }
 
 #about-us-section {
