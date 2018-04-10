@@ -32,6 +32,7 @@ body {
 
 #title {
   font-family:'Rock Salt';
+
 }
 #location {
   font-family:'Rock Salt';
@@ -70,6 +71,7 @@ img {
   height:250px;
 }
 
+
 #about-us-section {
   text-align: center;
   display: block;
@@ -89,10 +91,6 @@ img {
   margin-bottom: 0;
 
 }
-
-
-
-
 
 
 .about-section {
