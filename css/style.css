@@ -2,6 +2,7 @@ body {
  background-color: #222;
   text-align:center;
   position: relative;
+  color: black;
 }
 
 
@@ -12,7 +13,7 @@ body {
 }
 
 .jumbotron {
-  padding-top: 90px;
+  padding-top: 200px;
   min-height: 600px;
   margin-bottom: 0;
   background-image: url("..//images/background-cover.jpg");
@@ -26,7 +27,7 @@ body {
   background-color: #222;
   display: block;
   font-family: 'rock salt';
-  font-color:white;
+  color:white;
 }
 
 #title {
