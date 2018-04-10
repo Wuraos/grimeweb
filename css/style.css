@@ -14,8 +14,8 @@ body {
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
-  background-image: url("background-cover.jpg");
-  background-size:  300px 100px;
+  background-image: url("C:/Users/Karla/Documents/CFG/grime-website2/images/background-cover.jpg");
+  background-size:  cover;
   background-attachment: fixed;
   }
 
