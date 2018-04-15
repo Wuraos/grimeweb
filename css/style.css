@@ -41,17 +41,11 @@ body {
   display: block;
   font-family: 'rock salt';
   color:white;
-  display: block;
-  background-color: #222;
   min-height: 600px;
   margin-bottom: 0;
-  font-family: 'rock salt';
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
-  background-image:url("images/background-cover.jpg");
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 #stormzy-giggs-skepta{
@@ -62,15 +56,32 @@ padding-bottom: 75px;
 padding: auto;
 }
 
+
 #partners-section {
   text-align: center;
   display: block;
   background-color: #222;
+  min-height: 600px;
+  margin-bottom: 0;
+  font-family: 'rock salt';
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+}
+
+
+#partners-section {
+  text-align: center;
+  display: block;
+  background-color: #222;
+  min-height: 600px;
+  margin-bottom: 0;
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
 
 }
+
 
 
 #about-us-section {
@@ -108,18 +119,12 @@ color: white;
 position
 }
 
+
 #message {
   height: 75px;
   -webkit-transition: height 0.4s ease-in-out;
      transition: height 0.4s ease-in-out;
-
 }
-
-
-.btn-submit {
-
-}
-
 
 
 #title {
