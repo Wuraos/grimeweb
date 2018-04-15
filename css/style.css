@@ -19,8 +19,21 @@ body {
   background-image: url("..//images/background-cover.jpg");
   background-size:  cover;
   background-attachment: fixed;
+  padding: 18%;
   }
 
+
+.section-headings {
+  padding-bottom: 20px 50px 100px 50px;
+  margin-bottom: 75px;
+  }
+
+
+  img {
+    border-radius: 50%;
+    width:250px;
+    height:250px;
+  }
 
 #artists-section {
   text-align: center;
@@ -28,19 +41,25 @@ body {
   display: block;
   font-family: 'rock salt';
   color:white;
+  display: block;
+  background-color: #222;
+  min-height: 600px;
+  margin-bottom: 0;
+  font-family: 'rock salt';
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image:url("images/background-cover.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-#title {
-  font-family:'Rock Salt';
+#stormzy-giggs-skepta{
+padding-bottom: 75px;
 }
-#location {
-  font-family:'Rock Salt';
-  font-size: 20px;
-}
-#tagline {
-  font-family:'Rock Salt';
 
-
+#kreptkonan-wretch32-jhus{
+padding: auto;
 }
 
 #partners-section {
@@ -53,22 +72,6 @@ body {
 
 }
 
-#artists-section {
-  text-align: center;
-  display: block;
-  background-color: #222;
-  padding-top: 90px;
-  min-height: 600px;
-  margin-bottom: 0;
-  font-family: 'rock salt';
-
-}
-
-img {
-  border-radius: 50%;
-  width:250px;
-  height:250px;
-}
 
 #about-us-section {
   text-align: center;
@@ -85,21 +88,49 @@ img {
   display: block;
   background-color: #222;
   padding-top: 90px;
+  padding-bottom: 100px;
   min-height: 600px;
-  margin-bottom: 0;
+}
+
+
+
+.address{
+  padding-bottom: 50px;
+}
+
+.form-control {
+display: inline-block;
+text-align: center;
+width: 50%;
+border: 1px solid black;
+background-color: transparent;
+color: white;
+position
+}
+
+#message {
+  height: 75px;
+  -webkit-transition: height 0.4s ease-in-out;
+     transition: height 0.4s ease-in-out;
+
+}
+
+
+.btn-submit {
 
 }
 
 
 
+#title {
+  font-family:'Rock Salt';
+}
 
+#location {
+  font-family:'Rock Salt';
+  font-size: 20px;
+}
 
-
-.about-section {
-  padding-top: 90px;
-  min-height: 600px;
-  margin-bottom: 0;
-  background-image:url("images/background-cover.jpg");
-  background-size: cover;
-  background-attachment: fixed;
+#tagline {
+  font-family:'Rock Salt';
 }

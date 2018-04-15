@@ -9,6 +9,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
 
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -18,6 +19,7 @@
 
   </head>
   <body data-spy="scroll" data-target="#main-nav">
+
 
 
     <nav class="navbar navbar-default navbar-fixed-top" id="main-nav">
@@ -63,10 +65,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2>Artists</h2>
+            <h2 class="section-headings">Artists</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row" id="stormzy-giggs-skepta">
           <div class="col-md-4 col-sm-6 artist-link">
             <a href="#" class="artist-link">
               <img src="images/Stormzy.jpg">
@@ -86,7 +88,7 @@
             </a>
           </div>
         </div>
-        <div class="row">
+        <div class="row" id="kreptkonan-wretch32-jhus">
           <div class="col-md-4 col-sm-6 artist-link">
             <a href="#" class="artist-link">
               <img src="images/kreptkonan.jpg">
@@ -111,7 +113,7 @@
 
     <div id= "partners-section">
       <div class="container">
-        <h2 style= "margin: 0 auto;">PARTNERS</h2>
+        <h2 class="section-headings">PARTNERS</h2>
           <div class="row">
             <div class="col-sm-4 col-md-4">
               <img src="images/logo-placeholder.jpg">
@@ -128,12 +130,12 @@
 
      <div id="about-us-section">
        <div class="container">
-         <h2 class= "center"><small>ABOUT US / ME / PROFILE</small><br/>
+         <h2 class= "section-headings"><small>ABOUT US / ME / PROFILE</small><br/></h2>
 
 
-Grime Music Group Management is a leading independent grime artist agency founded in London.
+<p>Grime Music Group Management is a leading independent grime artist agency founded in London.
 By taking an audacious approach on all of our projects, we continually provide the industry with exceptional,
-cutting edge talent. Serving the Grime music industry on a commercial platform.</h2>
+cutting edge talent. Serving the Grime music industry on a commercial platform.</p>
 
          <p class="lead"> We work closely with our clients to ensure their visions are brought to life. Whether it's providing our artists, creative directors and choreographers or casting a project ourselves, our relationship with the arts and music scene is built on long-standing, professional experience and relationships.
 </p>
@@ -149,26 +151,31 @@ cutting edge talent. Serving the Grime music industry on a commercial platform.<
      </div>
 
      <div id="contact-section">
-       <h2 class="center">CONTACT</h2>
 
-       <p class="contact-details">Hipster Warehouse, 2 Hackney Road<br>London E2 7NX</p>
-       <p class="contact-details"><strong>UK</strong>-info@talentmanagement.com</p>
-       <p class="contact-details"><strong>UK</strong>-US@talentmanagement.com</p>
+       <h2 class="section-headings">CONTACT</h2>
+
+       <section class="address">
+         <p class="contact-details">Hipster Warehouse, 2 Hackney Road<br>London E2 7NX</p>
+         <p class="contact-details"><strong>UK</strong>-info@talentmanagement.com</p>
+         <p class="contact-details"><strong>US</strong>-US@talentmanagement.com</p>
+       </section>
+
 
        <form>
          <div class="form-group">
-           <input type="name" class="form-control" id="name" placeholder="NAME" name="name">
+           <input type="name" class="form-control" id="name" placeholder="Name" name="name">
          </div>
          <div class="form-group">
-           <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email">
+           <input type="email" class="form-control" id="email" placeholder="Email" name="email">
          </div>
          <div class="form-group">
-           <input type="subject" class="form-control" id="subject" placeholder="SUBJECT" name="subject">
+           <input type="subject" class="form-control" id="subject" placeholder="Subject" name="subject">
          </div>
          <div class="form-group">
-           <input type="message" class="form-control" id="message" placeholder="MESSAGE" name="message">
+           <textarea name=""="message" class="form-control" id="message" placeholder="Message"></textarea>
          </div>
-         <button type="submit" class="btn btn-submit">Submit</button>
+         <button type="submit" class="btn btn-submit">Send</button>
+
        </form>
 
      </div>
