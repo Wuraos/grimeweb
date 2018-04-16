@@ -5,12 +5,19 @@ body {
   color: black;
 }
 
+.logo {
+  width: 15%;
+ height: auto;
+  position: relative;
+  right: 55%;
+}
 
 .navbar-default {
     background-color: transparent;
     padding: px 0;
     border: 0;
 }
+
 
 .jumbotron {
   padding-top: 200px;
@@ -21,6 +28,10 @@ body {
   background-attachment: fixed;
   padding: 18%;
   }
+
+.logo {
+
+}
 
 
 .section-headings {
@@ -104,6 +115,7 @@ padding: auto;
 
 #contact-section {
   text-align: center;
+  font-family: 'Roboto';
   display: block;
   background-color:#808080;
   font-size: 20px;
@@ -131,6 +143,7 @@ position
 
 #message {
   height: 75px;
+  font-family: 'Roboto';
   -webkit-transition: height 0.4s ease-in-out;
      transition: height 0.4s ease-in-out;
 }
@@ -138,18 +151,17 @@ position
 
 #title {
   font-family:'Rock Salt';
-  border-style: solid;
-  border-color: gray;
-
+  color: #FFD700;
 
 }
 
 #location {
   font-family:'Rock Salt';
   font-size: 20px;
+  color: white;
 }
 
 #tagline {
   font-family:'Rock Salt';
-  border-style: solid;
+  color: #FFD700;
 }
