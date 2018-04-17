@@ -2,12 +2,13 @@ body {
  background-color: #222;
   text-align:center;
   position: relative;
-  color: black;
+  color: #FFA500;
 }
+
 
 .logo {
   width: 15%;
- height: auto;
+  height: auto;
   position: relative;
   right: 55%;
 }
@@ -16,6 +17,20 @@ body {
     background-color: transparent;
     padding: px 0;
     border: 0;
+    font-size: 20px;
+}
+
+.page-scroll {
+  font-weight: 600;
+}
+
+
+#nav-list {
+    color: rgba(0,156,124,1);
+    position: fixed;
+    bottom: 600px;
+    right: 100px;
+    top: 5px;
 }
 
 
@@ -29,17 +44,19 @@ body {
   padding: 12%;
   }
 
-.logo {
+  #main-header {
+  background-color: rgba(128,128,128,0.6);
+  font-family: 'Permanent Marker', cursive;
+  }
 
-}
 
 
 .section-headings {
   padding-bottom: 20px 50px 100px 50px;
   margin-bottom: 75px;
-  font-family: 'Rock Salt';
   font-size: 50px;
   color: #FFA500
+  font-family: 'Permanent Marker', cursive;
   }
 
   .lead {
@@ -59,7 +76,6 @@ body {
   text-align: center;
   background-color: #222;
   display: block;
-  font-family: 'Rock Salt';
   color:white;
   min-height: 600px;
   margin-bottom: 0;
@@ -152,6 +168,9 @@ position
 }
 
 
+
+
+/**8
 #title {
   font-family:'Rock Salt';
   color: #FFA500;
