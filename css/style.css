@@ -23,10 +23,10 @@ body {
   padding-top: 200px;
   min-height: 600px;
   margin-bottom: 0;
-  background-image: url("..//images/background-cover.jpg");
+  background-image: url("..//images/music-image-012.jpg");
   background-size:  cover;
   background-attachment: fixed;
-  padding: 18%;
+  padding: 12%;
   }
 
 .logo {
@@ -37,8 +37,9 @@ body {
 .section-headings {
   padding-bottom: 20px 50px 100px 50px;
   margin-bottom: 75px;
-  font-family: 'Roboto';
+  font-family: 'Rock Salt';
   font-size: 50px;
+  color: #FFA500
   }
 
   .lead {
@@ -105,11 +106,13 @@ padding: auto;
 
 #about-us-section {
   text-align: center;
+  font-family: 'Roboto';
   display: block;
   background-color: #222;
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
+
 
 }
 
