@@ -103,7 +103,7 @@ padding: auto;
   background-color: #222;
   min-height: 600px;
   margin-bottom: 0;
-  font-family:'Roboto', sans-serif;
+  font-family:'rock salt';
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
@@ -119,6 +119,7 @@ padding: auto;
   padding-top: 90px;
   min-height: 600px;
   margin-bottom: 0;
+  font-family: 'rock salt';
 
 }
 
@@ -126,7 +127,7 @@ padding: auto;
 
 #about-us-section {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'rock salt';
   display: block;
   background-color: #222;
   padding-top: 90px;
