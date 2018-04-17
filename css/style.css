@@ -3,6 +3,8 @@ body {
   text-align:center;
   position: relative;
   color: #FFA500;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 
@@ -41,7 +43,7 @@ body {
   background-image: url("..//images/music-image-012.jpg");
   background-size:  cover;
   background-attachment: fixed;
-  padding: 12%;
+  padding: 18%;
   }
 
 
