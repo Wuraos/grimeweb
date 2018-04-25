@@ -139,7 +139,7 @@ padding: auto;
 
 #contact-section {
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'Rock salt';
   display: block;
   background-color:#808080;
   font-size: 20px;
@@ -167,7 +167,7 @@ position
 
 #message {
   height: 75px;
-  font-family: 'Roboto';
+  font-family: 'Rock Salt';
   -webkit-transition: height 0.4s ease-in-out;
      transition: height 0.4s ease-in-out;
 }
