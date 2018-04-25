@@ -137,6 +137,16 @@ padding: auto;
 
 }
 
+#about-section {
+  text-align: center;
+  font-family: 'rock salt';
+  display: block;
+  background-color: #222;
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+}
+
 #contact-section {
   text-align: center;
   font-family: 'Rock salt';
